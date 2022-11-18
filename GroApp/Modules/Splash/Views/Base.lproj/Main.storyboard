@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SplashVC" id="BYZ-38-t0r" customClass="SplashVC" customModule="GroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoIcon" translatesAutoresizingMaskIntoConstraints="NO" id="s7c-mR-NaH">
+                                <rect key="frame" x="165" y="160" width="84" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="1IH-Bn-7OX"/>
+                                    <constraint firstAttribute="width" constant="84" id="D4g-Cp-FR5"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CZd-Zy-YPu">
+                                <rect key="frame" x="182" y="770" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="A9Q-K4-kHb"/>
+                                    <constraint firstAttribute="height" constant="50" id="EoM-nM-dw3"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gro Technologies 2022" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMp-Y9-ZZ8">
+                                <rect key="frame" x="20" y="832" width="374" height="10"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="buttonsPrimary"/>
+                        <constraints>
+                            <constraint firstItem="CZd-Zy-YPu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ODP-im-LGL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UMp-Y9-ZZ8" secondAttribute="trailing" constant="20" id="P8p-7W-0lh"/>
+                            <constraint firstItem="s7c-mR-NaH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eVA-Td-qQB"/>
+                            <constraint firstItem="UMp-Y9-ZZ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gMy-yL-LiB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UMp-Y9-ZZ8" secondAttribute="bottom" constant="20" id="sje-eB-kDT"/>
+                            <constraint firstItem="UMp-Y9-ZZ8" firstAttribute="top" secondItem="CZd-Zy-YPu" secondAttribute="bottom" constant="12" id="uP0-Mq-L4O"/>
+                            <constraint firstItem="s7c-mR-NaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="z9V-7M-jOk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressView" destination="CZd-Zy-YPu" id="Ooh-A8-e1t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoIcon" width="83" height="53"/>
+        <namedColor name="buttonsPrimary">
+            <color red="0.14509803921568626" green="0.66666666666666663" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

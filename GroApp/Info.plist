@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb-fbid-</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-Q7kybcdAsDeJHj6ERoLDdDYzm</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>635808598070290</string>
+	<key>FacebookClientToken</key>
+	<string>8c39b1f8181a9956f29b6a0d4e1418d4</string>
+	<key>FacebookDisplayName</key>
+	<string>Gro: Task Manager</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>snapchat</string>
+		<string>itms-apps</string>
+		<string>bitmoji-sdk</string>
+		<string>twitter</string>
+		<string>twitterauth</string>
+	</array>
+	<key>SCSDKClientId</key>
+	<string>f65cd651-252f-409f-a1d1-5c5b05b15deb</string>
+	<key>SCSDKRedirectUrl</key>
+	<string>GroApp://myapp</string>
+	<key>SCSDKScopes</key>
+	<array>
+		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
+	</array>
+	<key>SnapKitAutoInit</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Regular</string>
+		<string>Montserrat-Medium</string>
+		<string>Montserrat-Bold</string>
+		<string>Montserrat-SemiBold</string>
+		<string>Montserrat-ExtraBold</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

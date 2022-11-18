@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-GroApp/Pods-GroApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework
+${BUILT_PRODUCTS_DIR}/SSTwitterLogin/SSTwitterLogin.framework
+${PODS_ROOT}/SnapSDK/SCSDKLoginKit.framework
+${PODS_ROOT}/SnapSDK/SCSDKCoreKit.framework
+${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework
+${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework
